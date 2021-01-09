@@ -9,7 +9,6 @@
 }
 
 .header {
-    width: 1440px;
     height: 200px;
     background: #FFA000;
 }
@@ -22,7 +21,6 @@
 }
 
 .image {
-    width: 1440px;
     height: 1080px;
     background-image: url(../img/img.jpg);
     background-size: cover;
@@ -30,7 +28,6 @@
 }
 
 .navigation {
-    width: 1440px;
     height: 100px;
     background: #FFA000;
 }
@@ -67,7 +64,6 @@
 }
 
 .footer {
-    width: 1440px;
     height: 200px;
     background: #FFA000;
     background-image: url(../img/logo.png);
