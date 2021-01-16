@@ -8,6 +8,7 @@
     font-weight: bold;
     line-height: 23px;
     color: #FFFFFF;
+    position: relative;
 }
 
 .header-content {
@@ -70,7 +71,7 @@
 
 .copyright {
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 20px;
 }
