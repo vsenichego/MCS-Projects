@@ -1,6 +1,6 @@
 @import url(reset.css);
 
-header, footer {
+.header, .footer {
     height: 60px;
     background-color: #FE1A19;
     font-family: Helvetica;
@@ -10,59 +10,76 @@ header, footer {
     color: #FFFFFF;
 }
 
-.header {
-    padding: 20px 20px;
+.header-content {
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
-.page {
-    background-color: #FFFFFF;
-}
+.common-section {
+    width: 100%;
+    font-size: 0px;
+    text-align: center;
 
-.section-box {
-    display: inline-block;
-    margin-top: 52px;
-    margin-bottom: 52px;
-    margin-right: 50px;
-}
-
-.section-box.first {
-    margin-left: 70px;
 }
 
 .content-box {
     width: 400px;
     height: 800px;
     border: 5px solid #E5E000;
-    box-sizing: border-box;
     border-radius: 30px;
     font-size: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 52px;
+    margin-bottom: 52px;
 }
 
-h2 {
+.content-box h2 {
     font-family: Helvetica;
     font-size: 20px;
     font-weight: bold; 
     line-height: 23px;
     color: #000000;
-    padding-top: 33px;
-    padding-left: 33px;
+    margin: 33px 33px;
 }
+
+/*.content-box.first-recipe {
+}*/
+
+.content-box.second-recipe {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/*
+.content-box.third-recipe {
+}*/
 
 .text-content {
     font-family: Times New Roman;
     font-size: 20px;
     line-height: 23px;
-    margin: 33px;
+    margin: auto 33px;
+}
+
+.ingred {
+    margin-top: 30px;
 }
 
 .copyright {
     display: inline-block;
-    margin: 20px 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 .home-button {
     float: right;
-    margin: 20px 20px;
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 .home-button a {
