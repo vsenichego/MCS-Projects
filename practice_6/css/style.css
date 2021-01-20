@@ -33,24 +33,26 @@ html {
     position: absolute;
     top: 5rem;
     left: 5rem;
-
 }
 
-.image {
+.hero-block {
     width: 100%;
-    height: 950px;
+    height: 1100px;
     background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow: 0 25px 20px white inset; 
     display: flex;
+    position: absolute;
+    top: 140px;
 }
 
-.image h2 {
+.hero-txt {
     font-family: 'Arial';
     font-size: 10rem;
     color: #E50043;
-    margin: auto;  
+    margin: auto;
 }
 
 .nav {
