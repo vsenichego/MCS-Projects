@@ -42,7 +42,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 25px 20px white inset; 
+/*    box-shadow: 0 25px 20px white inset; */
     display: flex;
     position: absolute;
     top: 140px;
